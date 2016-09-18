@@ -7,6 +7,7 @@ public class Test
       Scanner in = new Scanner(System.in);
 
       String name;
+      String address;
       int age;
       double salary;
 
@@ -15,6 +16,10 @@ public class Test
       System.out.println("Please enter your name: ");
       name = IO.readString();
       per1.set_name(name);             // using setters
+
+      System.out.println("Please enter your address: ");
+      address = in.nextLine();
+      per1.set_address(address);
 
       System.out.println("Please enter your age: ");
       age = IO.readInt();
@@ -32,6 +37,7 @@ public class Test
       System.out.println();
       System.out.println("*********************************");
       System.out.println("Name: " + per1.get_name());
+      System.out.println("Address: " + per1.get_address());
       System.out.println("Age: " + per1.get_age());
       System.out.println("Salary: " + per1.get_salary());
       System.out.println("*********************************");
