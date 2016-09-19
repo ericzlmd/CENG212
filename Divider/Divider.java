@@ -42,9 +42,9 @@ public class Divider
 	*******************************************************/
 	
 	public Divider(double inVoltTop, 
-								double inVoltBot, 
-								double rTop, 
-								double rBot)
+						double inVoltBot, 
+						double rTop, 
+						double rBot)
 	{
 		// pass user input to temp variable, and test variable if within range value
 		double tempVoltTop = inVoltTop;
