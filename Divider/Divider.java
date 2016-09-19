@@ -41,10 +41,7 @@ public class Divider
 			then tested if said values are within range
 	*******************************************************/
 	
-	public Divider(double inVoltTop, 
-						double inVoltBot, 
-						double rTop, 
-						double rBot)
+	public Divider(double inVoltTop, double inVoltBot, double rTop, double rBot)
 	{
 		// pass user input to temp variable, and test variable if within range value
 		double tempVoltTop = inVoltTop;
